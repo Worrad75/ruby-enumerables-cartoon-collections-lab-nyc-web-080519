@@ -1,11 +1,13 @@
 def roll_call_dwarves(dwarves)
-  dwarves.each_with_index do |ele, i|
-    puts "#{i}. #{dwarves[i]}"
+  dwarves.each_with_index do |dwarf, i|
+    puts "#{i}. #{dwarf}"
   end
 end
 
 def summon_captain_planet(calls)
-  # Your code here
+  called = [ ]
+  
+  
 end
 
 def long_planeteer_calls# code an argument here
