@@ -7,7 +7,7 @@ end
 def summon_captain_planet(calls)
   called = [ ]
   
-  
+  calls.map
 end
 
 def long_planeteer_calls# code an argument here
