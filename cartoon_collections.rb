@@ -13,5 +13,6 @@ end
 
 def find_the_cheese(strings_arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  strings_arr.each { |str| return str if cheese_types.include?(str)
+  strings_arr.each{|str| return str if cheese_types.include?(str)}
+  nil
 end
