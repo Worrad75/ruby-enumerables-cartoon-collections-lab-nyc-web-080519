@@ -1,10 +1,10 @@
-def roll_call_dwarves(array)
-  array.each_with_index do |ele, i|
-    
+def roll_call_dwarves(dwarves)
+  dwarves.each_with_index do |ele, i|
+    puts dwarves[i]
   end
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(calls)
   # Your code here
 end
 
